@@ -13,5 +13,5 @@ DB.create_table :otps do
   DateTime :created_at, default: Sequel::CURRENT_TIMESTAMP
   DateTime :updated_at, default: Sequel::CURRENT_TIMESTAMP
 
-  index [:phone, :code], unique: true
+  index [:phone, :code, :status], unique: true
 end

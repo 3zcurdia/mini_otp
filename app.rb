@@ -36,8 +36,6 @@ class App < Roda
     r.on 'check' do
       r.post do
         params = JSON.parse(r.body.read)
-   
-        # Check if the OTP is valid
         otp = DB[:otps].where(phone: params['phone'], code: params['code'], status: 'sent')
                         .where { expired_at > Time.now }
                         .first
