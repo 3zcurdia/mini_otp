@@ -24,6 +24,6 @@ ruby schema.rb
 Run the server
 
 ```
-rackup -s puma -p 9292 config.ru
+rackup -s falcon -p 9292 config.ru
 ```
 
