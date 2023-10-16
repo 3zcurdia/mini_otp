@@ -61,7 +61,7 @@ GEM
       protocol-http (~> 0.23)
       rack (>= 1.0)
     rack (3.0.8)
-    roda (3.72.0)
+    roda (3.73.0)
       rack
     samovar (2.2.0)
       console (~> 1.0)
@@ -69,15 +69,17 @@ GEM
     sequel (5.73.0)
       bigdecimal
     sqlite3 (1.6.7-arm64-darwin)
+    sqlite3 (1.6.7-x86_64-linux)
     timers (4.3.5)
     traces (0.11.1)
 
 PLATFORMS
   arm64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   falcon
-  roda (~> 3.72)
+  roda (~> 3.73)
   sequel (~> 5.73)
   sqlite3 (~> 1.6)
 
