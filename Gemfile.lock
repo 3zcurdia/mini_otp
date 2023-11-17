@@ -61,7 +61,7 @@ GEM
       protocol-http (~> 0.23)
       rack (>= 1.0)
     rack (3.0.8)
-    roda (3.73.0)
+    roda (3.74.0)
       rack
     samovar (2.2.0)
       console (~> 1.0)
@@ -79,7 +79,7 @@ PLATFORMS
 
 DEPENDENCIES
   falcon
-  roda (~> 3.73)
+  roda (~> 3.74)
   sequel (~> 5.74)
   sqlite3 (~> 1.6)
 
