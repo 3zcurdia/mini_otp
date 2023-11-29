@@ -68,8 +68,8 @@ GEM
       mapping (~> 1.0)
     sequel (5.74.0)
       bigdecimal
-    sqlite3 (1.6.8-arm64-darwin)
-    sqlite3 (1.6.8-x86_64-linux)
+    sqlite3 (1.6.9-arm64-darwin)
+    sqlite3 (1.6.9-x86_64-linux)
     timers (4.3.5)
     traces (0.11.1)
 
