@@ -68,8 +68,8 @@ GEM
       mapping (~> 1.0)
     sequel (5.75.0)
       bigdecimal
-    sqlite3 (1.6.9-arm64-darwin)
-    sqlite3 (1.6.9-x86_64-linux)
+    sqlite3 (1.7.0-arm64-darwin)
+    sqlite3 (1.7.0-x86_64-linux)
     timers (4.3.5)
     traces (0.11.1)
 
@@ -81,7 +81,7 @@ DEPENDENCIES
   falcon
   roda (~> 3.75)
   sequel (~> 5.75)
-  sqlite3 (~> 1.6)
+  sqlite3 (~> 1.7)
 
 RUBY VERSION
    ruby 3.2.2p53
