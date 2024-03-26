@@ -1,12 +1,12 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    async (2.8.1)
+    async (2.9.0)
       console (~> 1.10)
       fiber-annotation
-      io-event (~> 1.1)
+      io-event (~> 1.5, >= 1.5.1)
       timers (~> 4.1)
-    async-container (0.16.12)
+    async-container (0.17.1)
       async
       async-io
     async-http (0.63.0)
@@ -19,23 +19,25 @@ GEM
       traces (>= 0.10.0)
     async-http-cache (0.4.3)
       async-http (~> 0.56)
-    async-io (1.41.0)
+    async-io (1.42.0)
       async
     async-pool (0.4.0)
       async (>= 1.25)
-    base64 (0.2.0)
+    async-service (0.10.0)
+      async
+      async-container (~> 0.16)
     bigdecimal (3.1.6)
-    build-environment (1.13.0)
-    console (1.23.3)
+    console (1.23.6)
       fiber-annotation
       fiber-local
-    falcon (0.43.0)
+      json
+    falcon (0.44.0)
       async
-      async-container (~> 0.16.0)
+      async-container (~> 0.17)
       async-http (~> 0.57)
       async-http-cache (~> 0.4.0)
       async-io (~> 1.22)
-      build-environment (~> 1.13)
+      async-service (~> 0.10.0)
       bundler
       localhost (~> 1.1)
       openssl (~> 3.0)
@@ -44,16 +46,16 @@ GEM
       samovar (~> 2.1)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
-    io-event (1.4.2)
-    localhost (1.1.10)
+    io-event (1.5.1)
+    json (2.7.1)
+    localhost (1.2.0)
     mapping (1.1.1)
     openssl (3.2.0)
     process-metrics (0.2.1)
       console (~> 1.8)
       samovar (~> 2.1)
-    protocol-hpack (1.4.2)
-    protocol-http (0.26.0)
-      base64
+    protocol-hpack (1.4.3)
+    protocol-http (0.26.1)
     protocol-http1 (0.18.0)
       protocol-http (~> 0.22)
     protocol-http2 (0.16.0)
@@ -62,7 +64,7 @@ GEM
     protocol-rack (0.4.1)
       protocol-http (~> 0.23)
       rack (>= 1.0)
-    rack (3.0.9.1)
+    rack (3.0.10)
     roda (3.78.0)
       rack
     samovar (2.2.0)
