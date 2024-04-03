@@ -1,15 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    async (2.9.0)
+    async (2.10.1)
       console (~> 1.10)
       fiber-annotation
       io-event (~> 1.5, >= 1.5.1)
       timers (~> 4.1)
-    async-container (0.17.1)
+    async-container (0.18.0)
       async
       async-io
-    async-http (0.63.0)
+    async-http (0.64.0)
       async (>= 1.25)
       async-io (>= 1.28)
       async-pool (>= 0.2)
@@ -31,9 +31,9 @@ GEM
       fiber-annotation
       fiber-local
       json
-    falcon (0.44.0)
+    falcon (0.45.0)
       async
-      async-container (~> 0.17)
+      async-container (~> 0.18)
       async-http (~> 0.57)
       async-http-cache (~> 0.4.0)
       async-io (~> 1.22)
@@ -42,8 +42,8 @@ GEM
       localhost (~> 1.1)
       openssl (~> 3.0)
       process-metrics (~> 0.2.0)
-      protocol-rack (~> 0.1)
-      samovar (~> 2.1)
+      protocol-rack (~> 0.5)
+      samovar (~> 2.3)
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     io-event (1.5.1)
@@ -61,13 +61,13 @@ GEM
     protocol-http2 (0.16.0)
       protocol-hpack (~> 1.4)
       protocol-http (~> 0.18)
-    protocol-rack (0.4.1)
+    protocol-rack (0.5.0)
       protocol-http (~> 0.23)
       rack (>= 1.0)
     rack (3.0.10)
     roda (3.78.0)
       rack
-    samovar (2.2.0)
+    samovar (2.3.0)
       console (~> 1.0)
       mapping (~> 1.0)
     sequel (5.78.0)
