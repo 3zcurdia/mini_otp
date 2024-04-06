@@ -31,7 +31,7 @@ GEM
       fiber-annotation
       fiber-local
       json
-    falcon (0.45.0)
+    falcon (0.45.1)
       async
       async-container (~> 0.18)
       async-http (~> 0.57)
@@ -47,7 +47,7 @@ GEM
     fiber-annotation (0.2.0)
     fiber-local (1.0.0)
     io-event (1.5.1)
-    json (2.7.1)
+    json (2.7.2)
     localhost (1.2.0)
     mapping (1.1.1)
     openssl (3.2.0)
