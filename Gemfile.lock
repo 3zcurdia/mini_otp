@@ -9,12 +9,12 @@ GEM
     async-container (0.18.0)
       async
       async-io
-    async-http (0.64.0)
+    async-http (0.64.1)
       async (>= 1.25)
       async-io (>= 1.28)
       async-pool (>= 0.2)
       protocol-http (~> 0.26.0)
-      protocol-http1 (~> 0.18.0)
+      protocol-http1 (~> 0.19.0)
       protocol-http2 (~> 0.16.0)
       traces (>= 0.10.0)
     async-http-cache (0.4.3)
@@ -23,7 +23,7 @@ GEM
       async
     async-pool (0.4.0)
       async (>= 1.25)
-    async-service (0.10.0)
+    async-service (0.12.0)
       async
       async-container (~> 0.16)
     bigdecimal (3.1.7)
@@ -31,13 +31,13 @@ GEM
       fiber-annotation
       fiber-local
       json
-    falcon (0.45.1)
+    falcon (0.45.2)
       async
       async-container (~> 0.18)
       async-http (~> 0.57)
       async-http-cache (~> 0.4.0)
       async-io (~> 1.22)
-      async-service (~> 0.10.0)
+      async-service (~> 0.10)
       bundler
       localhost (~> 1.1)
       openssl (~> 3.0)
@@ -56,7 +56,7 @@ GEM
       samovar (~> 2.1)
     protocol-hpack (1.4.3)
     protocol-http (0.26.1)
-    protocol-http1 (0.18.0)
+    protocol-http1 (0.19.0)
       protocol-http (~> 0.22)
     protocol-http2 (0.16.0)
       protocol-hpack (~> 1.4)
