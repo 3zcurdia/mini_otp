@@ -8,10 +8,10 @@ GEM
       timers (~> 4.1)
     async-container (0.18.2)
       async (~> 2.10)
-    async-http (0.66.2)
+    async-http (0.66.3)
       async (>= 2.10.2)
       async-pool (>= 0.6.1)
-      io-endpoint (~> 0.10)
+      io-endpoint (~> 0.10, >= 0.10.3)
       io-stream (~> 0.4)
       protocol-http (~> 0.26.0)
       protocol-http1 (~> 0.19.0)
@@ -29,10 +29,10 @@ GEM
       fiber-annotation
       fiber-local (~> 1.1)
       json
-    falcon (0.47.4)
+    falcon (0.47.6)
       async
       async-container (~> 0.18)
-      async-http (~> 0.66, >= 0.66.2)
+      async-http (~> 0.66, >= 0.66.3)
       async-http-cache (~> 0.4.0)
       async-service (~> 0.10)
       bundler
@@ -45,7 +45,7 @@ GEM
     fiber-local (1.1.0)
       fiber-storage
     fiber-storage (0.1.0)
-    io-endpoint (0.10.2)
+    io-endpoint (0.10.3)
     io-event (1.5.1)
     io-stream (0.4.0)
     json (2.7.2)
@@ -65,7 +65,7 @@ GEM
     protocol-rack (0.5.1)
       protocol-http (~> 0.23)
       rack (>= 1.0)
-    rack (3.0.10)
+    rack (3.0.11)
     roda (3.79.0)
       rack
     samovar (2.3.0)
