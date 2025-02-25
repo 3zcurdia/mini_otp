@@ -6,5 +6,5 @@ ruby File.read(".ruby-version").strip
 
 gem "roda", "~> 3.89"
 gem "sequel", "~> 5.89"
-gem "sqlite3", "~> 2.5"
+gem "sqlite3", "~> 2.6"
 gem "falcon"
