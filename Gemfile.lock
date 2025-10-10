@@ -74,7 +74,7 @@ GEM
       io-stream (>= 0.10)
       protocol-http (~> 0.43)
       rack (>= 1.0)
-    rack (3.2.2)
+    rack (3.2.3)
     roda (3.96.0)
       rack
     samovar (2.3.0)
