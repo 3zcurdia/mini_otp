@@ -31,7 +31,7 @@ GEM
       async
       async-container (~> 0.16)
       string-format (~> 0.2)
-    bigdecimal (3.2.3)
+    bigdecimal (3.3.1)
     console (1.34.1)
       fiber-annotation
       fiber-local (~> 1.1)
@@ -79,7 +79,7 @@ GEM
     samovar (2.4.1)
       console (~> 1.0)
       mapping (~> 1.0)
-    sequel (5.97.0)
+    sequel (5.98.0)
       bigdecimal
     sqlite3 (2.7.4-arm64-darwin)
     sqlite3 (2.7.4-x86_64-linux-gnu)
@@ -93,7 +93,7 @@ PLATFORMS
 DEPENDENCIES
   falcon
   roda (~> 3.97)
-  sequel (~> 5.97)
+  sequel (~> 5.98)
   sqlite3 (~> 2.7)
 
 RUBY VERSION
