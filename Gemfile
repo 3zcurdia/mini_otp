@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 ruby File.read(".ruby-version").strip
 
-gem "roda", "~> 3.97"
+gem "roda", "~> 3.98"
 gem "sequel", "~> 5.98"
 gem "sqlite3", "~> 2.8"
 gem "falcon"
