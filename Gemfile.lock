@@ -95,7 +95,7 @@ GEM
     samovar (2.4.1)
       console (~> 1.0)
       mapping (~> 1.0)
-    sequel (5.100.0)
+    sequel (5.101.0)
       bigdecimal
     sqlite3 (2.9.0-arm64-darwin)
     sqlite3 (2.9.0-x86_64-linux-gnu)
@@ -109,7 +109,7 @@ PLATFORMS
 DEPENDENCIES
   falcon
   roda (~> 3.100)
-  sequel (~> 5.100)
+  sequel (~> 5.101)
   sqlite3 (~> 2.9)
 
 RUBY VERSION
