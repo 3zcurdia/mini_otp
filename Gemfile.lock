@@ -89,7 +89,7 @@ GEM
       protocol-http (~> 0.58)
       rack (>= 1.0)
     protocol-url (0.4.0)
-    rack (3.2.4)
+    rack (3.2.5)
     roda (3.100.0)
       rack
     samovar (2.4.1)
