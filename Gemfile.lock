@@ -37,7 +37,7 @@ GEM
     bake (0.24.1)
       bigdecimal
       samovar (~> 2.1)
-    bigdecimal (4.0.1)
+    bigdecimal (4.1.0)
     console (1.34.3)
       fiber-annotation
       fiber-local (~> 1.1)
@@ -95,7 +95,7 @@ GEM
     samovar (2.4.1)
       console (~> 1.0)
       mapping (~> 1.0)
-    sequel (5.102.0)
+    sequel (5.103.0)
       bigdecimal
     sqlite3 (2.9.2-arm64-darwin)
     sqlite3 (2.9.2-x86_64-linux-gnu)
@@ -109,7 +109,7 @@ PLATFORMS
 DEPENDENCIES
   falcon
   roda (~> 3.102)
-  sequel (~> 5.102)
+  sequel (~> 5.103)
   sqlite3 (~> 2.9)
 
 RUBY VERSION
